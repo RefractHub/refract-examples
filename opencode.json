@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "refract": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Refract",
+      "options": {
+        "baseURL": "https://refracthub.com/v1",
+        "apiKey": "{env:REFRACT_API_KEY}"
+      },
+      "models": {
+        "claude-opus-5-5": { "name": "Claude Opus 5.5" },
+        "claude-sonnet-5-5": { "name": "Claude Sonnet 5.5" },
+        "gpt-6.2-sol": { "name": "GPT-6.2 Sol" },
+        "gemini-4-carbon": { "name": "Gemini 4 Carbon" }
+      }
+    }
+  }
+}
